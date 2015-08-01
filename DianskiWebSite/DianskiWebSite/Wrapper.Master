@@ -4,16 +4,70 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Dian Atanasov | Official Website</title>
+
+    <meta charset="utf-8" />
+    <meta content="width=device-width" name="viewport" />
+    <meta content="Dian Atanasov | Official Website" name="Title" />
+    <meta content="Dian Atanasov, Dianski - official website" name="Description" />
+    <meta content="dian atanasov, dianski, диян атанасов" name="Keywords" />
+    <meta content="index, follow" name="Robots" />
+    <meta content="index, follow" name="Googlebot" />
+    <meta content="1 day" name="Revisit-After" />
+    <meta content="general" name="Rating" />
+    <!--<meta name="google-site-verification" content="u_Z9wLeK4FfQ0BxVIT24J5rpnrAQI4TuWeXA7VySQvA" />-->
+    <meta name="HandheldFriendly" content="true" />
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/scripts.js"></script>
+
+    <script>
+
+    </script>
     <asp:ContentPlaceHolder ID="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body>
+<div id="wrapper">
+        <header>
+            <div class="logo">
+                <a href="http://dianski.com"  id="website_logo" target="_self"></a>
 
-
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </div>
         
-        </asp:ContentPlaceHolder>
+        </header>
+        <nav>
+            <ul class="nav-collapse">
+                <li ><a href="Home.aspx" >Home</a></li> 
+                <li><a href="Resume.aspx" >Resume</a></li>  
+                <li><a href="MyPortfolio" >Portfolio</a></li>
+                <li><a href="MyHobies" >Hobies</a></li>  
+                <li><a href="MyGallery" >Gallery</a></li> 
+                <li><a  href="Contact" >Contact me</a></li> 
+                <li><a  href="Usefully" >Usefully</a></li>             
+            </ul>
+        </nav>
+
+        <script>
+            var navigation = responsiveNav(".nav-collapse", {
+                insert: "before"    
+            });
+        </script>
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer id="footer">
+            <p><a href="http://www.dianski.com" title="Dianski.Com" target="_blank">Www.Dianski.Com</a><br /> 
+              Copyright &copy; 2014. All rights reserved.<br /> Web design and developed by <a href="http://www.dianski.com" title="Dianski.Com" target="_blank"><strong>Dian Atanasov</strong></a>
+            </p>
+        </footer>
+
+    </div>
+
+
 
    
 </body>
