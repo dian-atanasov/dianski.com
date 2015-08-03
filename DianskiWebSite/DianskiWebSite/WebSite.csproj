@@ -57,12 +57,67 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ContactMe.aspx" />
+    <Content Include="Gallery.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Hobies.aspx" />
+    <Content Include="Portfolio.aspx" />
+    <Content Include="Resume.aspx" />
+    <Content Include="css\styles.css" />
+    <Content Include="Home.aspx" />
+    <Content Include="js\scripts.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactMe.aspx.cs">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactMe.aspx.designer.cs">
+      <DependentUpon>ContactMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Gallery.aspx.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Gallery.aspx.designer.cs">
+      <DependentUpon>Gallery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Hobies.aspx.cs">
+      <DependentUpon>Hobies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hobies.aspx.designer.cs">
+      <DependentUpon>Hobies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio.aspx.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Portfolio.aspx.designer.cs">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resume.aspx.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resume.aspx.designer.cs">
+      <DependentUpon>Resume.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wrapper.Master.cs">
       <DependentUpon>Wrapper.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Wrapper.Master.designer.cs">
       <DependentUpon>Wrapper.Master</DependentUpon>
@@ -77,6 +132,7 @@
     </None>
     <Content Include="Wrapper.Master" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
