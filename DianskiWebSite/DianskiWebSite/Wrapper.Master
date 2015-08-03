@@ -39,13 +39,13 @@
         </header>
         <nav>
             <ul class="nav-collapse">
-                <li ><a href="Home.aspx" >Home</a></li> 
-                <li><a href="Resume.aspx" >Resume</a></li>  
-                <li><a href="MyPortfolio" >Portfolio</a></li>
-                <li><a href="MyHobies" >Hobies</a></li>  
-                <li><a href="MyGallery" >Gallery</a></li> 
-                <li><a  href="Contact" >Contact me</a></li> 
-                <li><a  href="Usefully" >Usefully</a></li>             
+                <li ><a href="Home" >Home</a></li> 
+                <li><a href="Resume" >Resume</a></li>  
+                <li><a href="Portfolio.aspx" >Portfolio</a></li>
+                <li><a href="Hobies.aspx" >Hobies</a></li>  
+                <li><a href="Gallery.aspx" >Gallery</a></li> 
+                <li><a href="ContactMe.aspx" >Contact me</a></li> 
+                <li><a href="Usefully.aspx" >Usefully</a></li>             
             </ul>
         </nav>
 
@@ -61,7 +61,7 @@
         </div>
         <footer id="footer">
             <p><a href="http://www.dianski.com" title="Dianski.Com" target="_blank">Www.Dianski.Com</a><br /> 
-              Copyright &copy; 2014. All rights reserved.<br /> Web design and developed by <a href="http://www.dianski.com" title="Dianski.Com" target="_blank"><strong>Dian Atanasov</strong></a>
+              Copyright &copy; 2014. All rights reserved.<br /> Created with love in Sofia by <a href="http://www.dianski.com" title="Dianski.Com" target="_blank"><strong>Dianski</strong></a>
             </p>
         </footer>
 
